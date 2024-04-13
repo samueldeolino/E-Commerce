@@ -16,12 +16,6 @@
     --dsc-color-font-tertiary: #fff;
 
 }
-header{
-    background-color: var(--dsc-color-bg-secondary);
-    display: flex;
-    align-items: center;
-    height: 70px;
-}
 
 a, a:hover, a:active, a:visited{
     text-decoration: none;
@@ -41,6 +35,29 @@ html, body {
     margin-top: 0;
 }	
 
+main{
+    padding: 0 20px;
+}
+
+/* Generic styes */
+
+.dsc-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+/* Header Styles */
+
+header {
+    background-color: var(--dsc-color-bg-secondary);
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+}
+
 nav {
     color:  var(--dsc-color-bg-tertiary);
     display: flex;
@@ -49,12 +66,14 @@ nav {
     justify-content: space-between;
 }
 
-
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+nav a{
     font-size: 14px;
+    font-weight: 700;
+}
+
+nav h1{
+    font-size: 24px;
+    font-weight: 700;
 }
 
 
@@ -62,38 +81,42 @@ h3{
     color:var(--dsc-color-font-secondary);
 }
 
+/* Button Styles */
 
-.button-cart-details {
+.dsc-button-cart-details {
     display: grid;
     gap: 20px;
     margin-top: 20px;
-    border-radius: 4px;
+    width: 100%;
 }
 
+@media (min-width: 576px) {
+    .dsc-button-cart-details {
+        width: 220px;
+    }
+    
+}
 
-.btn-blue{
+.dsc-btn-blue{
     background-color: var(--dsc-color-btn-primary);
-    color: var(--dsc-color-bg-primary);
+    color: var(--dsc-color-btn-inverse);
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 220px;
     height: 42px;
     font-weight: 700;
     font-size: 16px;
 }
 
-.btn-white{
+.dsc-btn-white{
     background-color: var(--dsc-color-btn-inverse);
     color: var(--dsc-color-btn-primary);
     border-radius: 4px;
     cursor: pointer;
-    width: 220px;
     height: 42px;
     border: 1px solid var(--dsc-color-btn-primary);
     font-size: 16px;
     font-weight: 700;
-    
 }
 
 
