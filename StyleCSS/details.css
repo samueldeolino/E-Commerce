@@ -23,7 +23,7 @@
     padding: 10px 20px 20px 20px;
     color: var(--dsc-color-font-primary);
     border-radius: 0px 0px 4px 4px;
-    border: 1px solid #D9D9D9;
+    border: var(--dsc-color-cart-border);
 }
 
 .cart-bottom p{
@@ -40,8 +40,8 @@
 }
 
 .btn-blue{
-    background-color: #3483FA;
-    color: #ffffff;
+    background-color: var(--dsc-color-btn-primary);
+    color: var(--dsc-color-btn-inverse);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -52,13 +52,12 @@
 }
 
 .btn-white{
-    background-color: #ffffff;
-    color: #3483FA;
+    background-color: var(--dsc-color-btn-inverse);
+    color: var(--dsc-color-btn-primary);
     border-radius: 4px;
     cursor: pointer;
     width: 220px;
     height: 42px;
-    border: 1px solid #3483FA;
     font-size: 16px;
     font-weight: 700;
 }
