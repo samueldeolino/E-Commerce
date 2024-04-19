@@ -2,33 +2,12 @@
 
 
 #product-login-section{
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
-.dsc-card-login{
-    display: grid;
-    gap: 20px;
-    border-radius: 4px;
-    background-color: var(--dsc-color-cart-bg);
-    justify-content: center;
-    padding: 20px 20px;
-}
 
-.dsc-card-login h3{
-    display: flex;
-    justify-content: center;
-}
-
-.dsc-card-login input{
-    padding: 10px 20px;
-    border-radius: 4px;
-    border: 1px solid var(--dsc-color-cart-border);
-}
-
-.dsc-card-login input:focus{
-    outline: none;
-}
-
-.dsc-card-login button{
-   margin-top: 10px;
+@media (max-width: 576px) {
+    #product-login-section{
+        padding-top: 20px;
+    }
 }
