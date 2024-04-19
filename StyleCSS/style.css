@@ -95,6 +95,15 @@ h3{
     .dsc-button-cart-details {
         width: 220px;
     } 
+
+    .dsc-card-login{
+        width: 320px;
+    }
+
+    #product-login-section{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .dsc-btn-blue{
