@@ -5,6 +5,14 @@
     padding-top: 40px;
 }
 
+.email-field{
+    margin: auto;
+    width: 100%;
+}
+
+.email-field input{
+    border: 1px solid var(--dsc-color-error);
+}
 
 @media (max-width: 576px) {
     #product-login-section{
